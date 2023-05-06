@@ -62,7 +62,6 @@ const list = async() => {
       setEmployeelist([])
   }else {
       if (response.data.status === "OK"){
-        console.log("3")
           setEmployeelist(response.data.data.data)
       }else{
           setError([response.data.message])
