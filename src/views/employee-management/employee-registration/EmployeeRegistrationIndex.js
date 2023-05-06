@@ -241,7 +241,7 @@ const SaveOK = async() => {
        url: `employee/save`,
        params: {
         name : userName,
-           useremail : email,
+           email : email,
            japanese_skill : selectJapan,
            english_skill : selectEng,
            gender : selectGender,
